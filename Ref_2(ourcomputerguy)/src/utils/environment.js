@@ -1,6 +1,7 @@
 const baseUrl = {
-    // baseUrl: "https://impactmindz.in/client/artie/back_end/",
-    baseUrl: "https://admin.ourcomputerguy.com.au/",
+    
+    baseUrl: `${import.meta.env.VITE_APP_BASE_URL}`,
+  
     API_VERSION: "api/",
 }
 

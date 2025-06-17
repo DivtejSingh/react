@@ -1,0 +1,32 @@
+.modal-content{
+padding: 20px 10px !important;
+
+}
+
+.categoryImage img{
+width: 40px;
+border-radius: 100%;
+height: 43px;
+}
+.allcategories{
+    max-height: 90vh;
+    height: 70vh;
+}
+.fixed_pagination{
+    cursor: pointer;
+}
+
+.allcategories th{
+    width: 33%;
+}
+.category_list th{
+    width: 25%;
+}
+.widthselectbox{
+    width: 100%;
+}
+
+.rtl{
+    direction: rtl;
+    text-align: right;
+}

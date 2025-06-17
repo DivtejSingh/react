@@ -1,7 +1,7 @@
 const baseUrl = {
-    // baseUrl: "https://impactmindz.in/client/boub/back_end/",
-    // baseUrl: "https://impactmindz.in/client/boub/admin/",
-    baseUrl: "https://bouboulena.com/admin/",
+    
+ 
+    baseUrl: `${import.meta.env.VITE_APP_BASE_URL}`,
     API_VERSION: "api/",
 }
 

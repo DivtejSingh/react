@@ -9,13 +9,10 @@ import Founder from '../page/Founder'
 import Footer from '../components/Footer'
 import IphoneVideo from '../page/IphoneVideo'
 import YoutubeSeries from '../page/YoutubeSeries'
-import Contact from '../page/Contact'
+
 import Editorial from '../page/Editorial'
 import AboutUs from '../page/AboutUs'
-import ThankYouPage from '../page/Thanku'
-import Category from '../page/Category'
-import ParentCat from '../page/ParentCat'
-import VerticleReels from '../components/verticleVideo/VerticleReels'
+
 
 const Routing = () => {
     return (
@@ -30,11 +27,7 @@ const Routing = () => {
                 <Route path="/editorial" element={<Editorial />} />
                 <Route path="/youtube_series" element={<YoutubeSeries />} />
                 <Route path="/founder" element={<Founder />} />
-                <Route path="/categorys/:cat_name" element={<ParentCat />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/category/:cat_name"  element={<Category />} />
-                <Route path="/reels/:id" element={<VerticleReels />} />
-                <Route path="/thanku" element={<ThankYouPage />} />
+           
             </Routes>
             <Footer />
         </HashRouter>

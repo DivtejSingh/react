@@ -87,14 +87,7 @@ const router = createBrowserRouter([
           </DashboardLayout>
         ),
       },
-      {
-        path: "teachermanagement",
-        element: (
-          <DashboardLayout>
-            <Teachermanagement/>
-          </DashboardLayout>
-        ),
-      },
+     
       {
         path: "groupmanagement",
         element: (
@@ -103,30 +96,7 @@ const router = createBrowserRouter([
           </DashboardLayout>
         ),
       },
-      {
-        path: "calendar",
-        element: (
-          <DashboardLayout>
-            <Calendar />
-          </DashboardLayout>
-        ),
-      },
-      {
-        path: "event_participants",
-        element: (
-          <DashboardLayout>
-            <Event_Participants />
-          </DashboardLayout>
-        ),
-      },
-      {
-        path: "settings",
-        element: (
-          <DashboardLayout>
-            <SystemSetting />
-          </DashboardLayout>
-        ),
-      },
+ 
     ],
   },
 ]);
